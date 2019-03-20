@@ -1,0 +1,75 @@
+body,html{
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.background{
+    display: flex;
+    background-image: url("../images/testIMg.jpg");
+    height:100%;
+
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.problemTitle{
+    margin-top: 45%;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color:white;
+}
+.problemTitle h1{
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+.problemTitle a{
+    font-size: 1.2em;
+    color:white;
+    transition: 0.3s;
+
+}
+.problemTitle a:hover{
+    font-size: 1.5em;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+
+.info{
+    min-height: 100%;
+
+}
+
+i{
+    padding:5px;
+}
+[class*="col"]{
+    /*border: 1px dashed blue;*/
+}
+.problemInfo{
+    min-height: 400px;
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+#beta{
+    background-color: #BCC5DB;
+}
+.navBar{
+    /*background-color: #BCC5DB;*/
+    color:#363732;
+}
+
+.detailImg{
+    padding:6%;
+    border-radius: 5px;
+    text-align: center;
+}
