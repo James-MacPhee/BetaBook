@@ -54,7 +54,17 @@ i{
     /*border: 1px dashed blue;*/
 }
 .problemInfo{
-    min-height: 400px;
+    text-align: center;
+    margin-top: 35px;
+    min-height: 300px;
+}
+
+.problemStats{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
 }
 img{
     width: 100%;
@@ -62,7 +72,17 @@ img{
 
 }
 #beta{
-    background-color: #BCC5DB;
+    background-color: #EDEDED;
+}
+#betaBook{
+    margin-top: 10px;
+    font-size: 3em;
+}
+#guide{
+    font-size: 1.3em;
+}
+h5{
+    text-decoration: underline;
 }
 .navBar{
     /*background-color: #BCC5DB;*/
@@ -73,4 +93,15 @@ img{
     padding:6%;
     border-radius: 5px;
     text-align: center;
+}
+
+table{
+    border-radius: 10px;
+}
+.table thead>tr>th{
+    border: 0px;
+}
+
+td a{
+    color:white;
 }

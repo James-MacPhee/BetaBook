@@ -31,12 +31,18 @@
         <div id="beta" class="info container-fluid">
 
             <div class="row navBar">
-                <h2 class="col-2">BetaBook</h2>
+                <h2 id="betaBook" class="col-2">BetaBook</h2>
             </div>
 
             <div class="row">
                 <div class="col-7 problemInfo">
-                    <p>Info</p>
+                    <div class="card info">
+                        <h5>Boulder Problem - V0</h5>
+                        <ul id="guide">
+                            <li>Start from ... </li>
+                            <li>End on ... </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col">
                     <div class="detailImg">
@@ -48,7 +54,7 @@
             <div class="row">
                 <div class="col-7">
                     <h2>Sends of Boulder Problem</h2>
-                    <table class="table">
+                    <table class="table table-dark">
                         <thead>
                             <tr>
                                 <th>Climber</th>
@@ -57,13 +63,26 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>James Machpee</td>
+                                <td><a href="climbers.php?climber=james">James MacPhee</a></td>
                                 <td>December 12th - 1998</td>
+                            </tr>
+                            <tr>
+                                <td>Matt Peachey</td>
+                                <td>November 17th - 1998</td>
                             </tr>
                             <?php //Data from Database. ?>
                         </tbody>
                     </table>
                 </div>
+
+                <div class="problemStats col">
+                    <div class="card">
+                        <h4>Problem Stats</h4>
+                        <p>Total Sends: 98</p>
+                        <p>Location: Dirt</p>
+                    </div>
+                </div>
+
             </div>
 
         </div>
