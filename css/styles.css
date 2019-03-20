@@ -20,7 +20,8 @@ html{
 }
 
 .problemTitle{
-    margin-top: 45%;
+    position: absolute;
+    bottom: 50px;
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
     color:white;
